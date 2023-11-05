@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/main.css">
+    <title>Open Sea Dragon Test</title>
+</head>
+<body>
+
+    <article>
+        <h1>Работа с модулем Open Sea Dragon.</h1>
+        <h2>Работа с тайлами.</h2>
+    </article>
+
+    <div class="dragonCont">
+        <div id="openseadragon1"></div>
+    </div>
+
+    <script src="/openseadragon/openseadragon.min.js"></script>
+    <script type="text/javascript">
+    var viewer = OpenSeadragon({
+        id: "openseadragon1",
+        prefixUrl: "/openseadragon/images/",
+        tileSources: "/photo.dzi"
+    });
+    </script>
+
+    
+</script>
+</body>
+</html>
